@@ -87,7 +87,7 @@ export default {
         stringtomatch: this.search,
       };
 
-      let result = axios
+      axios
         .get("https://ron-swanson-quotes.herokuapp.com/v2/quotes/search/%20/", {
           params,
         })
